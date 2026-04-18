@@ -1,0 +1,23 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #1a1a2e;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+.appName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}

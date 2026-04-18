@@ -1,0 +1,21 @@
+# Environment files — never commit real credentials
+.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+backend/.venv/
+.venv/
+*.egg-info/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db

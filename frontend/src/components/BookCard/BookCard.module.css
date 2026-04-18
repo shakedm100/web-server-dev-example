@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.card:hover {
+  border-color: #a0a0c0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selected {
+  border-color: #1a1a2e;
+  box-shadow: 0 0 0 2px #1a1a2e;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #1a1a2e;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  align-self: flex-start;
+  text-transform: uppercase;
+}
+
+.badgePdf {
+  background-color: #fde8e8;
+  color: #c0392b;
+}
+
+.badgeEpub {
+  background-color: #e8f4fd;
+  color: #2471a3;
+}
