@@ -81,8 +81,6 @@ web_example/
 
 ---
 
-## Phase 1 — Backend Foundation
-
 # Agent-Driven Development Demo — E-Book Reader
 
 ## Project Context
